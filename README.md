@@ -20,6 +20,9 @@ A separate seed value generator has been implemented to generate a one bit outpu
 
 Here is the implementation of a 4-bit LFSR:
 
+- The seed value used here is: **1000**
+- Polynomial: **𝑥^4+𝑥^2+1**
+
 ![image](https://github.com/dhrupad-u/Linear-Feedback-Shift-Register-using-LTSpice/assets/42469685/fa4c103f-eec9-4791-87f7-640242f9c688)
 
 Simulation of the 4-bit LFSR:
@@ -29,6 +32,9 @@ Simulation of the 4-bit LFSR:
 Once this is implemented, we can convert it into a symbol and cascade it further to create a 2^n bit LFSR.
 
 Cascading of 4 * 4-bit LFSR's:
+
+- The seed value used here is: **1000100010001000**
+- Polynomial: **x^16+𝑥^14+𝑥^12+𝑥^10+𝑥^8+𝑥^6+𝑥^4+𝑥^2+1**
 
 ![image](https://github.com/dhrupad-u/Linear-Feedback-Shift-Register-using-LTSpice/assets/42469685/027ebccb-78dd-4c70-9aa0-13b5e961d4e9)
 
@@ -41,6 +47,8 @@ This can be cascaded further as per requirement.
 Make sure to initialize each inbuilt D-Flip Flop as follows:
 
 ![image](https://github.com/dhrupad-u/Linear-Feedback-Shift-Register-using-LTSpice/assets/42469685/2420f395-7b80-4eaa-8625-7e2eae6a9c73)
+
+
 
 **Files included**
 1. 4-bit LFSR schematic (.asc file)
